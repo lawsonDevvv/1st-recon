@@ -1,7 +1,7 @@
 import type { Message } from "discord.js";
 import { LawsonClient } from "./lib/LawsonClient";
-import { container } from "@sapphire/framework";
-import { Client } from "discord-hybrid-sharding";
+// import { container } from "@sapphire/framework";
+// import { Client } from "discord-hybrid-sharding";
 
 export const snipes = new Map<string, Message>();
 export const editsnipes = new Map<string, Message[]>();
