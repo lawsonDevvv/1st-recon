@@ -28,7 +28,7 @@ async function main() {
   try {
     client.logger.info("Attempting to login...");
     await client.login(process.env.token ?? "0");
-      client.logger.info("Successfully Logged In ✅");
+    client.logger.info("Successfully Logged In ✅");
       
       
   } catch (error) {
